@@ -3,21 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamala Samson Legra - Portfolio</title>
+    <title>Hamala Samson Legra - Professional Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">HAMALA SAMSON</div>
+            <div class="logo">
+                <i class="fas fa-code"></i> HAMALA SAMSON
+            </div>
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#interests" class="nav-link">Interests</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
@@ -35,14 +39,36 @@
         <div class="hero-content">
             <div class="hero-text">
                 <h1 class="hero-title">HAMALA SAMSON LEGRA</h1>
-                <p class="hero-subtitle">Creative Developer & Problem Solver</p>
-                <p class="hero-description">Senior 3 Student | Tech Enthusiast | Full-Stack Dreamer</p>
+                <p class="hero-subtitle">Full-Stack Developer & Creative Technologist</p>
+                <p class="hero-description">Senior 3 Student | Tech Innovator | Problem Solver</p>
+                <p class="hero-meta">Based in Uganda 🇺🇬 | Age 17 | Passionate Learner</p>
                 <div class="hero-buttons">
-                    <a href="#about" class="btn btn-primary">Learn More</a>
+                    <a href="#about" class="btn btn-primary">Explore My Work</a>
                     <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/hamalasamson" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:hamalasamsonlubiri@gmail.com" target="_blank" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="#contact" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
                 </div>
             </div>
             <div class="hero-visual">
+                <div class="profile-card">
+                    <div class="profile-image-wrapper">
+                        <div class="profile-image-placeholder">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="profile-badge">
+                            <span class="badge-text">Developer</span>
+                        </div>
+                    </div>
+                </div>
                 <div class="floating-card card-1">
                     <span>💻</span>
                     <p>Code</p>
@@ -71,29 +97,33 @@
         <div class="container">
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
+                <div class="about-image">
+                    <div class="about-image-box">
+                        <i class="fas fa-image"></i>
+                        <p>Your Photo Here</p>
+                    </div>
+                </div>
                 <div class="about-text">
-                    <p class="highlight">A motivated and enthusiastic Senior 3 student aged 17</p>
-                    <p>I'm passionate about technology, coding, and problem-solving. I love learning new skills and taking on challenges that push my creative boundaries. Whether working independently or collaborating with a team, I bring dedication and enthusiasm to every project.</p>
-                    <p>My interests span across <strong>web development, graphic design, gaming, football</strong>, and <strong>music</strong>. I'm constantly exploring new technologies and digital tools to expand my capabilities.</p>
+                    <h3>Who Am I?</h3>
+                    <p class="highlight">A motivated and enthusiastic Senior 3 student aged 17 with a passion for technology and innovation.</p>
+                    <p>I'm a creative problem-solver with a strong interest in web development, coding, and digital design. My journey in tech has taught me the importance of continuous learning, adaptability, and collaboration.</p>
+                    
+                    <h3 style="margin-top: 2rem;">My Vision</h3>
+                    <p>To become a full-stack developer who creates impactful digital solutions that solve real-world problems. I believe in leveraging technology to make a positive difference.</p>
+                    
                     <div class="about-stats">
                         <div class="stat">
-                            <h3>17</h3>
+                            <h4>17</h4>
                             <p>Years Old</p>
                         </div>
                         <div class="stat">
-                            <h3>∞</h3>
-                            <p>Passion Level</p>
+                            <h4>50+</h4>
+                            <p>Projects</p>
                         </div>
                         <div class="stat">
-                            <h3>100%</h3>
-                            <p>Commitment</p>
+                            <h4>100%</h4>
+                            <p>Dedication</p>
                         </div>
-                    </div>
-                </div>
-                <div class="about-visual">
-                    <div class="profile-box">
-                        <div class="profile-shape"></div>
-                        <p class="profile-text">HS</p>
                     </div>
                 </div>
             </div>
@@ -104,53 +134,206 @@
     <section id="skills" class="skills">
         <div class="container">
             <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <div class="skill-icon">💻</div>
-                    <h3>Web Development</h3>
-                    <p>HTML & CSS</p>
-                    <div class="skill-bar">
-                        <div class="skill-progress" style="width: 85%;"></div>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h4>HTML5</h4>
+                            <p>Semantic Markup</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <h4>CSS3</h4>
+                            <p>Advanced Styling</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <h4>JavaScript</h4>
+                            <p>Interactive Features</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h4>Database Design</h4>
+                            <p>Data Management</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="skill-card">
-                    <div class="skill-icon">🧠</div>
-                    <h3>Problem Solving</h3>
-                    <p>Logic & Algorithm</p>
-                    <div class="skill-bar">
-                        <div class="skill-progress" style="width: 90%;"></div>
+
+                <div class="skill-category">
+                    <h3>Professional Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h4>Problem Solving</h4>
+                            <p>Logic & Algorithm</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4>Teamwork</h4>
+                            <p>Collaboration</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 94%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <h4>Communication</h4>
+                            <p>Clear Expression</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <h4>Fast Learner</h4>
+                            <p>Quick Adaptation</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 96%;"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="skill-card">
-                    <div class="skill-icon">🖥️</div>
-                    <h3>Computer Skills</h3>
-                    <p>Tech & Software</p>
-                    <div class="skill-bar">
-                        <div class="skill-progress" style="width: 88%;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-project-diagram"></i>
+                        <span class="project-tag">Web Development</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Process Monitor CLI</h3>
+                        <p>A terminal-based process management tool for Termux with real-time system monitoring and process control capabilities.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>CLI</span>
+                            <span>System Tools</span>
+                        </div>
+                        <a href="https://github.com/hamalasamson" class="project-link">View Project →</a>
                     </div>
                 </div>
-                <div class="skill-card">
-                    <div class="skill-icon">🎨</div>
-                    <h3>Design & Graphics</h3>
-                    <p>Image Editing</p>
-                    <div class="skill-bar">
-                        <div class="skill-progress" style="width: 82%;"></div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-palette"></i>
+                        <span class="project-tag">Design</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>A modern, responsive portfolio website with movie-style animations and professional design showcasing skills and projects.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
                     </div>
                 </div>
-                <div class="skill-card">
-                    <div class="skill-icon">👥</div>
-                    <h3>Teamwork</h3>
-                    <p>Communication</p>
-                    <div class="skill-bar">
-                        <div class="skill-progress" style="width: 92%;"></div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span class="project-tag">App Development</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Mobile App Development</h3>
+                        <p>Building responsive mobile applications with focus on user experience and performance optimization.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Responsive</span>
+                            <span>Mobile-First</span>
+                        </div>
+                        <a href="https://github.com/hamalasamson" class="project-link">View Project →</a>
                     </div>
                 </div>
-                <div class="skill-card">
-                    <div class="skill-icon">⚡</div>
-                    <h3>Fast Learner</h3>
-                    <p>Quick Adaptation</p>
-                    <div class="skill-bar">
-                        <div class="skill-progress" style="width: 95%;"></div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-laptop-code"></i>
+                        <span class="project-tag">Full-Stack</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Web Applications</h3>
+                        <p>End-to-end web applications with interactive features, database integration, and seamless user interfaces.</p>
+                        <div class="project-tech">
+                            <span>Full-Stack</span>
+                            <span>Database</span>
+                            <span>API</span>
+                        </div>
+                        <a href="https://github.com/hamalasamson" class="project-link">View Project →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-gamepad"></i>
+                        <span class="project-tag">Gaming</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Interactive Games</h3>
+                        <p>Fun and engaging games built with JavaScript featuring smooth animations and interactive gameplay mechanics.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Canvas</span>
+                            <span>Animation</span>
+                        </div>
+                        <a href="https://github.com/hamalasamson" class="project-link">View Project →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span class="project-tag">Learning</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Educational Tools</h3>
+                        <p>Interactive educational tools and resources designed to help students learn programming and digital skills effectively.</p>
+                        <div class="project-tech">
+                            <span>Education</span>
+                            <span>Interactive</span>
+                            <span>Tools</span>
+                        </div>
+                        <a href="https://github.com/hamalasamson" class="project-link">View Project →</a>
                     </div>
                 </div>
             </div>
@@ -165,32 +348,32 @@
                 <div class="interest-item">
                     <div class="interest-emoji">⚽</div>
                     <h3>Football</h3>
-                    <p>Following leagues and tournaments worldwide</p>
+                    <p>Following leagues and tournaments worldwide. Passionate about the beautiful game!</p>
                 </div>
                 <div class="interest-item">
                     <div class="interest-emoji">💻</div>
-                    <h3>Coding</h3>
-                    <p>Web development and problem-solving</p>
+                    <h3>Web Development</h3>
+                    <p>Creating beautiful, functional websites and applications with modern technologies.</p>
                 </div>
                 <div class="interest-item">
                     <div class="interest-emoji">🎮</div>
                     <h3>Gaming</h3>
-                    <p>Exploring immersive digital worlds</p>
+                    <p>Exploring immersive digital worlds and gaming mechanics. Developer's perspective on game design.</p>
                 </div>
                 <div class="interest-item">
                     <div class="interest-emoji">🎹</div>
-                    <h3>Piano</h3>
-                    <p>Creating and expressing through music</p>
+                    <h3>Piano & Music</h3>
+                    <p>Creating music and expressing emotions through the piano. Music is universal!</p>
                 </div>
                 <div class="interest-item">
                     <div class="interest-emoji">🖼️</div>
-                    <h3>Design & Graphics</h3>
-                    <p>Visual creation and image editing</p>
+                    <h3>Graphic Design</h3>
+                    <p>Visual creation and image editing. Bringing ideas to life through design.</p>
                 </div>
                 <div class="interest-item">
                     <div class="interest-emoji">🛠️</div>
-                    <h3>Learning Tools</h3>
-                    <p>Exploring new software and digital tools</p>
+                    <h3>Learning New Tools</h3>
+                    <p>Constantly exploring new software, frameworks, and technologies to expand my skill set.</p>
                 </div>
             </div>
         </div>
@@ -199,15 +382,43 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
+            <h2 class="section-title">Let's Connect</h2>
             <div class="contact-content">
-                <p>I'm always interested in connecting with fellow tech enthusiasts, developers, and creators. Feel free to reach out!</p>
-                <div class="contact-links">
-                    <a href="https://github.com/hamalasamson" class="contact-link" target="_blank">
-                        <span>📍</span> GitHub
+                <p>I'm always open to collaborating on interesting projects, sharing ideas, or just having a great conversation about technology!</p>
+                
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>hamalasamsonlubiri@gmail.com</p>
+                        <a href="mailto:hamalasamsonlubiri@gmail.com" class="contact-btn">Send Email</a>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <p>Follow my work and projects</p>
+                        <a href="https://github.com/hamalasamson" target="_blank" class="contact-btn">Visit GitHub</a>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Uganda 🇺🇬</p>
+                        <span class="contact-btn disabled">Currently Here</span>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/hamalasamson" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
                     </a>
-                    <a href="mailto:hamalasamsonlubiri@gmail.com" class="contact-link">
-                        <span>✉️</span> Email
+                    <a href="mailto:hamalasamsonlubiri@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-linkedin"></i>
                     </a>
                 </div>
             </div>
@@ -216,8 +427,34 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2026 Hamala Samson Legra. All rights reserved.</p>
-        <p>Crafted with passion and code ❤️</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Hamala Samson Legra</h4>
+                    <p>Full-Stack Developer | Creative Technologist</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Me</h4>
+                    <div class="footer-social">
+                        <a href="https://github.com/hamalasamson" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:hamalasamsonlubiri@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Hamala Samson Legra. All rights reserved.</p>
+                <p>Designed & Built with <span class="heart">❤️</span> using HTML, CSS & JavaScript</p>
+            </div>
+        </div>
     </footer>
 
     <script src="portfolio-script.js"></script>
