@@ -1,91 +1,144 @@
-<!--SUBZERO V6 FINAL || DO NOT COPY MY README WITHOUT CREDITS-->
+# Hamala Samson Legra - Professional Portfolio
 
+A modern, interactive portfolio website with movie-style animations and stunning visual effects.
 
+## 🎬 Features
 
-<h1 align="center">𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 </h1>
+✨ **Movie-Style Animations**
+- Smooth fade-in and slide animations
+- Floating cards with interactive effects
+- Parallax scrolling effects
+- Glowing mouse-follow effects
+- Smooth transitions and hover effects
 
-<img align="center" height="auto"
-src="https://mrfrankk-cdn.hf.space/media/repo.png">
+🎨 **Modern Design**
+- Gradient text and backgrounds
+- Dark theme with vibrant accent colors
+- Responsive and mobile-friendly
+- Professional layout
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=506EF8&lines=WELCOME+TO+SUBZERO+MD+MADE+BY;MR+FRANK+OFC;THANKS+FOR+VISITING+MY+REPO)](https://git.io/typing-svg)
-<br>
+📱 **Fully Responsive**
+- Desktop, tablet, and mobile optimized
+- Hamburger menu for mobile
+- Adaptive grid layouts
 
-   </p>
-<p align="center">
-<a href="https://github.com/mrfr8nk"><img title="Author" src="https://img.shields.io/badge/mrfrank-blue?style=for-the-badge&logo=Github"></a> <a href="https://youtube.com/@mrfr4nk"><img title="Author" src="https://img.shields.io/badge/YT CHANNEL-darkred?style=for-the-badge&logo=youtube"></a> <a href="https://whatsapp.com/channel/0029Vb7D70MI7BeC0xUnKb05"><img title="Channel" src="https://img.shields.io/badge/Contact Me-darkgreen?style=for-the-badge&logo=whatsapp"></a>
-<p/> 
+🚀 **Interactive Elements**
+- Smooth scrolling navigation
+- Skill progress bars with animations
+- Card tilt effects on hover
+- Glow effects on mouse movement
 
- <p align="center">
-<a href="https://github.com/mrfr8nk/followers"><img title="Followers" src="https://img.shields.io/github/followers/mrfr8nk?color=purple&style=flat-square"></a>
-<a href="https://github.com/mrfrankofcc/SUBZERO-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/mrfrankofcc/SUBZERO-MD?color=blue&style=flat-square"></a>
-<a href="https://github.com/mrfrankofcc/SUBZERO-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/mrfrankofcc/SUBZERO-MD?color=blue&style=flat-square"></a>
-<a href="https://github.com/mrfrankofcc/SUBZERO-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/mrfrankofcc/SUBZERO-MD?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/rfrankofcc/SUBZERO-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/mrfrankofcc/SUBZERO-MD?style=flat-square&color=green"></a>
-<a href="https://github.com/mrfr8nk.svg"></a>&nbsp;&nbsp;</a>
-<a href="https://github.com/mrfrankofcc/SUBZERO-MD"Dev"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=flat-square&color=darkpink"></a> &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=mrfr8nk&label=VIEWS&style=flat-square&color=blue" />
-</a>
-<p align="center">
-  <a href="https://github.com/mrfrankofcc/SUBZERO-MD"><img title="Release" src="https://img.shields.io/badge/Release-beta%20v6.0.0-darkcyan.svg?style=for-the-badge&logo=appveyor" /></a>
+## 🛠️ Technologies Used
 
-<p align='center'>
-    </p>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-<p align="center">
-    <strong>𝗙𝗢𝗥𝗞 𝗥𝗘𝗣𝗢𝗦𝗜𝗧𝗢𝗥𝗬 </strong>
-  <br>
-    <a href="https://github.com/MRFRANKOFCC/SUBZERO-MD/fork" target="_blank">
-        <img alt="Fork Repo" src="https://img.shields.io/badge/Fork%20Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkblue"/>
-    </a>
-</p>
-<p align="center">
-    <strong>𝗚𝗘𝗧 𝗦𝗘𝗦𝗦𝗜𝗢𝗡_𝗜𝗗 </strong>
-  <br>
-    <a href="https://pair.subzero.gleeze.com" target="_blank">
-        <img alt="Session ID" src="https://img.shields.io/badge/SESSION%20ID-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkpurple"/>
-    </a>
-</p>
-<h2 align="center">  𝗚𝗘𝗧 𝗦𝗧𝗔𝗥𝗧𝗘𝗗
-</h2>
+- **HTML5** - Semantic markup
+- **CSS3** - Advanced styling and animations
+- **JavaScript** - Interactive functionality
+- **Google Fonts** - Poppins and Space Mono fonts
 
+## 📂 File Structure
 
-<div align="center">
-  <table>
-    <tr>
-      <td><a href="https://dashboard.heroku.com/new?template=https://github.com/mrfrankofcc/SUBZERO-MD/tree/main" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000&color=00ffff"/></a></td>
-      <td><a href="https://talkdrove.com/share-bot/11" target="_blank"><img src="https://img.shields.io/badge/TalkDrove-6971FF?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a></td>
-    </tr>
-    <tr>
-      <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=mrfrankofcc/SUBZERO-MD" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
-      <td><a href="https://railway.app/new" target="_blank"><img src="https://img.shields.io/badge/Railway-FF8700?style=for-the-badge&logo=railway&logoColor=white&labelColor=000000"/></a></td>
-    </tr>
-    <tr>
-      <td><a href="https://dashboard.render.com/web/new" target="_blank"><img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white&labelColor=000000&color=00ffaa"/></a></td>
-      <td><a href="https://github.com/mrfrankofcc/SUBZERO-MD/archive/refs/heads/main.zip" target="_blank"><img src="https://img.shields.io/badge/Panel-File-CC00FF?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=000000"/></a></td>
-    </tr>
-  </table>
+```
+├── index.html      # Main HTML file
+├── styles.css      # All styling and animations
+├── script.js       # Interactive JavaScript
+└── README.md       # This file
+```
 
-  <td><a href="https://subzeronodez.gleeze.com" target="_blank"><img src="https://img.shields.io/badge/SubzeroNodes-000000?style=for-the-badge&logo=bot-hosting&logoColor=white&labelColor=000000&color=blue"/></a></td>
-</div>
+## 🚀 Getting Started
 
-<div align="center">
-  <img src="https://github.com/mrfrankofcc/SUBZERO-MD/blob/main/assets/techwave.gif?raw=true" width="100%"/>
-</div>
-<center>
+### Live Portfolio
 
-</details>
+The portfolio is automatically published on GitHub Pages. Visit:
+**https://hamalasamson.github.io/SON-LEGRA**
 
-## Credits
+### Local Development
 
-- [Dev](https://github.com/mrfr8nk)
-- [Angular Sockets Baileys](https://www.npmjs.com/package/angularsockets)
+1. Clone the repository:
+```bash
+git clone https://github.com/hamalasamson/SON-LEGRA.git
+cd SON-LEGRA
+```
 
-<h2 align="center">  𝗣𝗢𝗟𝗜𝗧𝗘 𝗡𝗢𝗧𝗜𝗖𝗘!
-</h2>
+2. Open `index.html` in your browser (or use Live Server in VS Code)
 
-- This bot is made for educational purposes `only` hence `DO NOT MISUSE`.
+3. Make changes and commit:
+```bash
+git add .
+git commit -m "Update portfolio"
+git push origin main
+```
 
-> `POWERED BY MR FRANK OFC 🇿🇼`
-##
+## 🎨 Color Scheme
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+- **Primary**: `#00d4ff` (Cyan)
+- **Secondary**: `#ff006e` (Pink/Magenta)
+- **Accent**: `#8338ec` (Purple)
+- **Dark Background**: `#0a0e27`
+- **Text**: `#e0e0e0`
+
+## ✨ Animation Effects
+
+### Hero Section
+- Text glow animation
+- Floating cards with continuous floating motion
+- Parallax effect on scroll
+- Smooth fade-in animations
+
+### Sections
+- Slide-in animations for titles
+- Staggered fade-in for cards
+- Hover lift effect
+- Progress bar animations
+
+### Interactive
+- Mouse-follow glow effects
+- Card tilt on hover
+- Button ripple effects
+- Smooth scroll navigation
+
+## 📱 Responsive Breakpoints
+
+- **Desktop**: Full layout (1200px+)
+- **Tablet**: Grid adjustments (768px - 1199px)
+- **Mobile**: Single column layout (<768px)
+
+## 🔧 Customization
+
+### Change Colors
+Edit the CSS variables in `styles.css`:
+```css
+:root {
+    --primary-color: #00d4ff;
+    --secondary-color: #ff006e;
+    --accent-color: #8338ec;
+}
+```
+
+### Add New Sections
+1. Add HTML in `index.html`
+2. Add CSS styling in `styles.css`
+3. Add JavaScript interactivity in `script.js` (if needed)
+
+### Modify Content
+Edit the text and emojis directly in `index.html`
+
+## 🐛 Browser Support
+
+- ✅ Chrome (latest)
+- ✅ Firefox (latest)
+- ✅ Safari (latest)
+- ✅ Edge (latest)
+- ✅ Mobile browsers
+
+## 📊 Performance
+
+- **Optimized** CSS and JavaScript
+- **Smooth animations** using CSS transforms
+- **Lazy loading** for images
+- **Minimal file sizes** for fast loading
+
+---
+
+**Made with ❤️ and code by Hamala Samson Legra**
+
+Live at: [https://hamalasamson.github.io/SON-LEGRA](https://hamalasamson.github.io/SON-LEGRA)
